@@ -1,0 +1,49 @@
+:root {
+    --c12: #000000;
+    --c11: #111111;
+    --c10: #2E2E2E;
+    --c9: #404040;
+    --c8: #595959;
+    --c7: #717171;
+    --c6: #9C9C9C;
+    --c5: #B2B2B2;
+    --c4: #CCCCCC;
+    --c3: #DEDEDE;
+    --c2: #EDEDED;
+    --c1: #F7F7F7;
+    --w: #FFFFFF;
+
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #A66F00;
+    --p2: #E4A30B;
+    --p1: #FFBB00;
+
+    --font-1: 'Poppins', sans-serif;
+    --font-2: 'Roboto', sans-serif;
+}
+
+.seguros-container{
+    background-color: var(--c10);
+}
+.seguros-conteudo{
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 5rem 0;
+    color: var(--w);
+}
+
+.seguros-plano{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.plano-item{
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    justify-items: end;
+    gap: 1rem;
+    background-color: var(--c12);
+    padding: 3rem;
+}
