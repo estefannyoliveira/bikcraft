@@ -1,0 +1,49 @@
+:root {
+    --c12: #000000;
+    --c11: #111111;
+    --c10: #2E2E2E;
+    --c9: #404040;
+    --c8: #595959;
+    --c7: #717171;
+    --c6: #9C9C9C;
+    --c5: #B2B2B2;
+    --c4: #CCCCCC;
+    --c3: #DEDEDE;
+    --c2: #EDEDED;
+    --c1: #F7F7F7;
+    --w: #FFFFFF;
+
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #A66F00;
+    --p2: #E4A30B;
+    --p1: #FFBB00;
+
+    --font-1: 'Poppins', sans-serif;
+    --font-2: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-bg{
+    background-color: var(--c12);
+}
+
+.footer{
+    color: var(--w);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4rem;
+    justify-items: center;
+}
+
+.footer-titulo{
+
+}
+.footer-item{
+    display: grid;
+    gap: 2rem;
+}

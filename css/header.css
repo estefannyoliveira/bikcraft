@@ -23,7 +23,7 @@
     --font-2: 'Roboto', sans-serif;
 }
 
-.header-container{
+.header-bg{
     color: var(--c1);
     background-color: var(--c12);
 }
@@ -34,7 +34,7 @@
     padding-top: 2rem;
 }
 
-ul{
+.menu{
     gap: 2.5rem;
     list-style: none;
 

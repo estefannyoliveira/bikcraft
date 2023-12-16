@@ -33,6 +33,11 @@
     color: var(--w);
 }
 
+.seguros-titulo{
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
 .seguros-plano{
     display: flex;
     justify-content: center;
@@ -40,10 +45,48 @@
 }
 
 .plano-item{
+    flex: 1;
     display: grid;
-    grid-template-columns: repeat(2, 120px);
-    justify-items: end;
-    gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem 3.62rem;
     background-color: var(--c12);
-    padding: 3rem;
+    padding: 2rem;
+    padding-left: 3.5rem;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.plano-tipo{
+    color: var(--c6);
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ouro{
+    color: var(--p1);
+}
+
+.plano-preco{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: right;
+}
+.plano-pag{
+    color: var(--c6);
+    font-size: 12px;
+    text-align: right;
+    margin-top: 0;
+    line-height: .1;
+}
+
+.plano-caracteristicas{
+    list-style: url('/img/icones/lista.svg');
+    line-height: 2;
+}
+
+.btn-plano{
+    margin-top: 32px;
 }
