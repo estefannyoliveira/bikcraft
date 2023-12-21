@@ -9,22 +9,27 @@
 .diferencial-conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 80vw;
+    max-width: 1200px;
+    padding: 0 20px;
     gap: 1rem;
     margin: 0 auto;
 }
 
-.diferencial-texto{
+.diferencial-texto {
     padding: 140px 0;
 }
 
-.diferencial-texto .text-1{
+.diferencial-texto p {
+    margin-bottom: 20px;
+}
+
+.diferencial-texto h2 {
     margin-bottom: 32px;
 }
 
-
 .diferencial-caracteristicas {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-top: 80px;
 }
@@ -40,4 +45,21 @@
     max-width: 100%;
     object-fit: cover;
     border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+    .diferencial-container{
+        box-shadow: none;
+    }
+    .diferencial-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .diferencial-texto{
+        padding-bottom: 2rem;
+    }
+
+    .diferencial-img {
+        display: none;
+    }
 }

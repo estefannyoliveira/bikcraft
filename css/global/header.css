@@ -1,6 +1,3 @@
-@import "/css/root.css";
-
-
 .header-bg {
     background-color: var(--cor-12);
 }
@@ -24,7 +21,6 @@
 .menu-item a {
     flex: 1;
     display: inline-block;
-    font-size: 18px;
     padding: 1rem 0;
 }
 

@@ -2,9 +2,9 @@
     background-color: var(--cor-10);
 }
 .seguros-conteudo{
-    max-width: 80vw;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 5rem 0;
+    padding: 5rem 20px;
 }
 
 .seguros-conteudo .font-1-xxl{
@@ -13,6 +13,7 @@
 
 .seguros-plano{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
@@ -29,16 +30,13 @@
     border-radius: 5px;
 }
 
+.plano-item h4{
+    font-size: 2.25rem;
+}
+
 .plano-item p{
     text-align: right;
 }
-
-.plano-tipo{
-    font-size: 36px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
 
 .plano-caracteristicas{
     list-style: url('/img/icones/lista.svg');
