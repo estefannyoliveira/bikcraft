@@ -1,0 +1,53 @@
+.expositor {
+    max-width: 90vw;
+    margin: 0 auto;
+    gap: 4rem;
+    padding: 120px 0
+}
+
+.expositor-titulo{
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+
+.expositor-produto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.expositor-item {
+    min-width: 330px;
+    flex: 1;
+}
+
+
+.expositor-item img {
+    height: 520px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+
+
+.item-titulo{
+    position: relative;
+    margin-bottom: 8px;
+
+}
+
+.item-descricao{
+    display: grid;
+    grid-template-columns: .2fr 4fr;
+    align-items: start;
+}
+
+.item-detalhe {
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: var(--cor-p1);
+    margin-top: 15px;
+}

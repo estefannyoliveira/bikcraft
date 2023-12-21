@@ -1,0 +1,23 @@
+@import "/css/root.css";
+
+.depoimento {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.depoimento-container {
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--cor-p1);
+}
+
+.depoimento-texto {
+    padding: 4rem;
+    font-size: 28px;
+}
+
+
+.depoimento-img {
+    height: 100%;
+    object-fit: cover;
+}

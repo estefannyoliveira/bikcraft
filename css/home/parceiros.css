@@ -1,0 +1,14 @@
+.parceiros{
+    display: grid;
+    max-width: 90vw;
+    gap: 1rem;
+    padding: 5rem 0;
+    margin: 0 auto;
+    position: relative;
+
+}
+.parceiros-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}

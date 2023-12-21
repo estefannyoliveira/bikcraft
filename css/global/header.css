@@ -1,31 +1,8 @@
-:root {
-    --c12: #000000;
-    --c11: #111111;
-    --c10: #2E2E2E;
-    --c9: #404040;
-    --c8: #595959;
-    --c7: #717171;
-    --c6: #9C9C9C;
-    --c5: #B2B2B2;
-    --c4: #CCCCCC;
-    --c3: #DEDEDE;
-    --c2: #EDEDED;
-    --c1: #F7F7F7;
-    --w: #FFFFFF;
+@import "/css/root.css";
 
-    --p5: #332200;
-    --p4: #664400;
-    --p3: #A66F00;
-    --p2: #E4A30B;
-    --p1: #FFBB00;
-
-    --font-1: 'Poppins', sans-serif;
-    --font-2: 'Roboto', sans-serif;
-}
 
 .header-bg {
-    color: var(--c1);
-    background-color: var(--c12);
+    background-color: var(--cor-12);
 }
 
 .header-conteudo {
@@ -47,7 +24,6 @@
 .menu-item a {
     flex: 1;
     display: inline-block;
-    color: var(--w);
     font-size: 18px;
     padding: 1rem 0;
 }
@@ -55,7 +31,7 @@
 .menu-item a::after{
     content: "";
     display: block;
-    background-color: var(--c1);
+    background-color: var(--cor-1);
     width: 0%;
     height: 2px;
     transition:  .3s;
@@ -72,7 +48,7 @@
         gap: 1rem;
     }
     .menu-item a {
-        background-color: var(--c11);
+        background-color: var(--cor-11);
         padding: .6rem 1rem;
         border-radius: 5px;
     }
@@ -80,7 +56,7 @@
         display: none;
     }
     .menu-item a:hover {
-        background-color: var(--c10);
+        background-color: var(--cor-10);
     }
 
 }
