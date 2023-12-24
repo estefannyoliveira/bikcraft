@@ -1,55 +1,57 @@
-.expositor {
-    margin: 0 auto;
-    padding: 120px 0
+.expositor{
+    padding: 120px 0;
 }
-
 .expositor h2{
     max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
+    margin: 0px auto;
     margin-bottom: 40px;
-}
-
-.expositor-produto {
-    max-width: 1400px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
     padding: 0 20px;
-    margin: 0 auto;
+
 }
 
-.expositor-item {
-    min-width: 330px;
+.expositor ul{
+    display: flex;
+    gap: 40px;
+    margin: 0px auto;
+    max-width: 1400px;
+    padding: 0 20px;
+    overflow-x: scroll;
+}
+
+.expositor li{
+    min-width: 280px;
+}
+
+.expositor img{
     flex: 1;
-}
-.expositor-item img {
-    height: 100%;
-    
-    object-fit: cover;
-    border-radius: 4px;
     margin-bottom: 16px;
+    height: 520px;
 }
 
-
-
-.item-titulo{
-    position: relative;
+.expositor h3{
     margin-bottom: 8px;
-
+    display: flex;
+    align-items: center;
 }
-
-.item-descricao{
-    display: grid;
-    grid-template-columns: .2fr 4fr;
-    align-items: start;
-}
-
-.item-detalhe {
-    display: block;
+.expositor h3::before{
+    content: "";
+    display: inline-block;
     width: 12px;
     height: 8px;
-    background: var(--cor-p1);
-    margin-top: 15px;
+    background-color: var(--cor-p1);
+    margin-right: 8px;
 }
 
+.expositor li span{
+    margin-left: 20px;
+}
+
+@media (max-width:800px){
+    .expositor{
+        padding: 60px 0;
+    }
+
+    .expositor ul{
+        gap: 20px;
+    }
+}
