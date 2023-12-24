@@ -1,18 +1,15 @@
-@import "/css/global/global.css";
-@import "/css/global/header.css";
-@import "/utilidades/tipografia.css";
+@import "global/global.css";
+@import "global/header.css";
+@import "utilidades/tipografia.css";
 @import "utilidades/cores.css";
 
+@import "bicicletas/expositor.css";
 
-@import "/bicicletas/expositor.css";
+@import "home/introducao.css";
+@import "home/diferencial.css";
+@import "home/parceiros.css";
+@import "home/depoimento.css";
+@import "home/seguros.css";
+@import "home/footer.css";
 
-@import "/css/home/introducao.css";
-@import "/css/home/diferencial.css";
-@import "/css/home/parceiros.css";
-@import "/css/home/depoimento.css";
-@import "/css/home/seguros.css";
-@import "/css/home/footer.css";
-
-
-@import "/css/utilidades/componentes.css";
-
+@import "utilidades/componentes.css";
