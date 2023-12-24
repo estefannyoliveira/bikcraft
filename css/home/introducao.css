@@ -3,12 +3,9 @@
     box-shadow: inset 0px -120px 1px #fff;
 }
 
-.introducao-conteudo{
+.introducao{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
     gap: 0 40px;
     justify-content: center;
 }
@@ -43,7 +40,7 @@
 
     }
 
-    .introducao-conteudo{
+    .introducao{
         grid-template-columns: 1fr;
         padding-top: 20px;
     }

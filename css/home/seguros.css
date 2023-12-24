@@ -1,13 +1,12 @@
-.seguros-container{
+.seguros-bg{
     background-color: var(--cor-10);
 }
-.seguros-conteudo{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 5rem 20px;
+.seguros{
+    padding-top: 60px;
+    padding-bottom: 120px;
 }
 
-.seguros-conteudo .font-1-xxl{
+.seguros .font-1-xxl{
     margin-bottom: 50px;
 }
 
