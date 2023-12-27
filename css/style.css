@@ -15,6 +15,9 @@
 
 
 @import "bicicletas/expositor.css";
+@import "bicicletas/bicicletas.css";
+
+
 @import "seguros/seguros.css";
 @import "termos/termos.css";
 
