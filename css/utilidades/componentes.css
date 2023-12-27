@@ -28,11 +28,14 @@
 .btn-2 {
     display: inline-block;
     color: var(--cor-p1);
-    font-size: 1.2rem;
-    font-weight: 500;
+    font: 500 1.5rem/1.5 "Poppins", sans-serif;
     text-transform: uppercase;
-    border-bottom: 4px solid var(--cor-p1);
+    border-bottom: 4px solid currentColor;
     margin: 1rem 0;
+}
+
+.btn-2:hover{
+    color: var(--cor-0);
 }
 
 .btn-3 {

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,500&display=swap"
         rel="stylesheet">
 
 </head>
@@ -30,8 +30,8 @@
         </div>
     </header>
 
-    <main class="main introducao-bg">
-        <div class="introducao container center">
+    <main class="introducao-bg">
+        <div class="introducao container">
 
             <div class="introducao-texto">
                 <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<strong>.</strong></h1>
@@ -41,7 +41,9 @@
                 <a class="btn-1" href="/">Selecione a sua</a>
             </div>
 
-            <img class="introducao-img" src="img/bicicleta/nimbus1.jpg" alt="Bicicleta">
+            <div>
+                <img src="img/bicicleta/nimbus1.jpg" alt="Bicicleta">
+            </div>
         </div>
     </main>
 
@@ -74,19 +76,18 @@
         </ul>
     </article>
 
-    <section class="diferencial-container">
-        <div class="diferencial-conteudo">
-            <div class="diferencial-texto">
-                <p class="cor-5 font-2-l-b">tecnologia avançada</p>
+    <article class="diferencial-bg">
+        <div class="diferencial container">
+            <div class="diferencial-conteudo">
+                <span class="font-2-l-b cor-5">tecnologia avançada</span>
                 <h2 class="font-1-xxl">você escolhe as suas cores e componentes.</h2>
 
                 <p class="cor-5 font-2-l">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para
-                    o seu
-                    corpo e altura,
-                    garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar
-                    completamente
-                    as suas cores.</p>
+                    o seu corpo e altura, garantindo maior conforto e ergonomia sua pedalada. Você pode também
+                    personalizar completamente as suas cores.</p>
+
                 <a class="btn-2" href="/">escolha um modelo</a>
+
                 <div class="diferencial-caracteristicas">
                     <div class="caracteristicas-item">
                         <img src="img/icones/eletrica.svg" alt="">
@@ -107,13 +108,17 @@
                     </div>
                 </div>
             </div>
-            <img class="diferencial-img" src="img/fotos/tecnologia.jpg" alt="Pinceis">
-        </div>
-    </section>
 
-    <section class="parceiros container">
-        <h3 class="font-1-xxl cor-11">nossos parceiros<strong>.</strong></h3>
-        <ul class="parceiros-item center">
+            <div class="diferencial-img">
+                <img src="img/fotos/tecnologia.jpg" alt="Pinceis">
+            </div>
+
+        </div>
+    </article>
+
+    <section class="parceiros" aria-label="Nossos parceiros">
+        <h2 class="container cor-11 font-1-xxl ">escolha a sua<strong>.</strong></h2>
+        <ul class="parceiros-item">
             <li><img src="img/parceiros/caravan.svg" alt=""></li>
             <li><img src="img/parceiros/dogs.svg" alt=""></li>
             <li><img src="img/parceiros/flexblog.svg" alt=""></li>
@@ -125,19 +130,21 @@
         </ul>
     </section>
 
-    <section class="depoimento">
-        <img class="depoimento-img" src="img/fotos/depoimento.jpg" alt="">
-        <div class="depoimento-container">
-            <div class="depoimento-texto">
-                <p class="cor-p5">
+
+    <section class="depoimento" aria-label="Depoimento">
+        <div>
+            <img class="depoimento-img" src="img/fotos/depoimento.jpg" alt="">
+        </div>
+
+        <div class="depoimento-conteudo">
+            <blockquote>
+                <p class="font-1-xl cor-p5">
                     Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor
                     por
                     esta atividade. Recomendo à todos que amo.
                 </p>
-                <p>
-                    Ana Júlia
-                </p>
-            </div>
+            </blockquote>
+            <span class="font-1-m-b cor-p4">Ana Júlia</span>
         </div>
     </section>
 
