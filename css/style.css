@@ -1,15 +1,18 @@
 @import "global/global.css";
 @import "global/header.css";
+@import "global/footer.css";
+
+
 @import "utilidades/tipografia.css";
 @import "utilidades/cores.css";
+@import "utilidades/componentes.css";
 
-@import "bicicletas/expositor.css";
 
 @import "home/introducao.css";
 @import "home/diferencial.css";
 @import "home/parceiros.css";
 @import "home/depoimento.css";
-@import "home/seguros.css";
-@import "home/footer.css";
 
-@import "utilidades/componentes.css";
+
+@import "bicicletas/expositor.css";
+@import "seguros/seguros.css";
