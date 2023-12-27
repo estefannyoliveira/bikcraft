@@ -18,11 +18,21 @@
     line-height: 1.4;
     font-weight: 600;
     text-transform: uppercase;
+    max-width: max-content;
+
 }
 
 .btn-1:hover{
-    background: linear-gradient(#FFB60d, #e59317 );
+    background: linear-gradient(#FFB60d, #e59317 ); 
 
+}
+.btn-1.secundario{
+    background: var(--cor-10);
+    color: var(--cor-4);
+}
+
+.btn-1.secundario:hover{
+    background: var(--cor-9);
 }
 
 .btn-2 {
@@ -36,19 +46,5 @@
 
 .btn-2:hover{
     color: var(--cor-0);
-}
-
-.btn-3 {
-    color: var(--cor-4);
-    background-color: var(--cor-10);
-    box-shadow: 0px 1px 2px 0px #0000001a;
-    border-radius: 4px;
-    display: inline-block;
-
-    padding: 16px 32px;
-    font-size: 18px;
-    line-height: 1.4;
-    font-weight: 600;
-    text-transform: uppercase;
 }
 

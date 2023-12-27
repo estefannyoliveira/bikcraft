@@ -52,3 +52,9 @@
         border-top: 2px solid var(--cor-2);
     }
 }
+
+@media (max-width:800px){
+    .parceiros-item li{
+        padding: 20px;
+    }
+}

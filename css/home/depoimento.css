@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: var(--cor-p1);
+    overflow: hidden;
 }
 
 .depoimento-conteudo {
-    padding: 40px 80px;
+    padding: 40px 40px 80px 80px;
     font-size: 2px;
     align-self: end;
 }
@@ -46,5 +47,12 @@
 @media (max-width: 800px){
     .depoimento{
         grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .depoimento-conteudo{
+        padding: 40px 20px;
+    }
+    .depoimento img {
+        max-height: 300px;
     }
 }
