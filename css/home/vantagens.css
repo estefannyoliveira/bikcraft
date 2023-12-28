@@ -1,52 +1,52 @@
-.diferencial-bg {
+.vantagens-bg {
     background-color: var(--cor-11);
     box-shadow: inset 0 80px #fff, inset 0 -80px #fff;
 }
 
-.diferencial {
+.vantagens {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
-.diferencial-conteudo {
+.vantagens-conteudo {
     padding-top: 160px;
     padding-bottom: 160px;
 }
 
-.diferencial-conteudo > span {
+.vantagens-conteudo > span {
     display: block;
     margin-bottom: 20px;
 }
 
-.diferencial-conteudo h2 {
+.vantagens-conteudo h2 {
     margin-bottom: 32px;
 }
 
-.diferencial-conteudo > p {
+.vantagens-conteudo > p {
     margin-bottom: 20px;
 }
 
-.diferencial-conteudo a{
+.vantagens-conteudo a{
     margin-bottom: 80px;
 }
 
-.diferencial-caracteristicas {
+.vantagens-caracteristicas {
     display: flex;
     gap: 30px;
 }
 
-.diferencial-caracteristicas img{
+.vantagens-caracteristicas img{
     width: 24px;
     margin-bottom: 8px;
 }
 
-.diferencial-caracteristicas h3{
+.vantagens-caracteristicas h3{
     margin-bottom: 8px;
     width: max-content;
 }
 
-.diferencial-img img {
+.vantagens-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -55,31 +55,31 @@
 }
 
 @media (max-width: 800px) {
-    .diferencial-bg {
+    .vantagens-bg {
         box-shadow: none;
     }
 
-    .diferencial {
+    .vantagens {
         grid-template-columns: 1fr;
     }
 
-    .diferencial-conteudo {
+    .vantagens-conteudo {
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
-    .diferencial-conteudo a{
+    .vantagens-conteudo a{
         margin-bottom: 40px;
     }
 
-    .diferencial-img {
+    .vantagens-img {
         display: none;
     }
 
 }
 
 @media (max-width: 600px){
-    .diferencial-caracteristicas{
+    .vantagens-caracteristicas{
         flex-direction: column;
     }
 }

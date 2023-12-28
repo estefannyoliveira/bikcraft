@@ -9,7 +9,7 @@
 
 
 @import "home/introducao.css";
-@import "home/diferencial.css";
+@import "home/vantagens.css";
 @import "home/parceiros.css";
 @import "home/depoimento.css";
 
@@ -19,5 +19,8 @@
 
 
 @import "seguros/seguros.css";
+@import "seguros/seguros-vantagens.css";
+@import "seguros/faq.css";
+
 @import "termos/termos.css";
 
