@@ -1,8 +1,6 @@
 .bicicletas-bg {
     /* background-color: var(--cor-11); */
     background: linear-gradient(to right, var(--cor-0) 30%,var(--cor-12)  30%);
-
-
 }
 
 .bicicletas {
@@ -11,6 +9,7 @@
     gap: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+    background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
 .bicicletas-img{
@@ -81,8 +80,6 @@
 .bicicletas h3 {
     font-weight: 500;
 }
-
-
 
 @media (max-width:800px) {
     .bicicletas {
