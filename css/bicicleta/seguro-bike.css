@@ -1,0 +1,53 @@
+.seguro-bike-bg{
+    background-color: var(--cor-11);
+    box-shadow: inset 0px 120px var(--cor-0), inset 0px -120px 0px var(--cor-12);
+}
+
+.seguro-bike{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.seguro-bike-imagem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.seguro-bike-conteudo{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.seguro-bike-conteudo h2{
+    margin-bottom: 32px;
+}
+
+.seguro-bike-conteudo p{
+    margin-bottom: 20px;
+}
+
+@media (max-width:800px){
+    .seguro-bike-bg{
+        box-shadow: inset 0px -60px 0px var(--cor-12);
+    }
+    
+    .seguro-bike{
+        grid-template-columns: 1fr;
+    }
+
+    .seguro-bike-conteudo{
+        grid-row: 1;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .seguro-bike-imagem img{
+    }
+
+    .seguro-bike-texto{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+}

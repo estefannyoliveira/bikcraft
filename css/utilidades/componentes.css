@@ -19,7 +19,8 @@
     font-weight: 600;
     text-transform: uppercase;
     max-width: max-content;
-
+    border: none;
+    cursor: pointer;
 }
 
 .btn-1:hover{
@@ -33,6 +34,26 @@
 
 .btn-1.secundario:hover{
     background: var(--cor-9);
+}
+
+.btn-1.seta{
+    display: flex;
+    align-items: center;
+}
+
+.btn-1.seta::after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 12px;
+    margin-left: 12px;
+    background: url("../../img/icones/seta.svg");
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+.btn-1.seta:hover:after{
+    transform: translateX(4px);
 }
 
 .btn-2 {

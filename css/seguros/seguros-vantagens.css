@@ -5,7 +5,8 @@
 .sg-vantagens {
     padding-top: 120px;
     padding-bottom: 120px;
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap: 40px 80px;
 }
 
 .vantagens h2 {
@@ -23,7 +24,10 @@
 
 @media (max-width:800px) {
     .sg-vantagens {
-        grid-template-columns: repeat(1, 1fr)
+        padding-top: 60px;
+        padding-bottom: 60px;
+        gap: 20px;
+
     }
 
     .vantagens h2 {

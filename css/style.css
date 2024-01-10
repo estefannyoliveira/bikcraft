@@ -6,6 +6,8 @@
 @import "utilidades/tipografia.css";
 @import "utilidades/cores.css";
 @import "utilidades/componentes.css";
+@import "utilidades/formulario.css";
+
 
 
 @import "home/introducao.css";
@@ -16,7 +18,10 @@
 
 @import "bicicletas/expositor.css";
 @import "bicicletas/bicicletas.css";
-@import "bicicletas/bicicleta-interna.css";
+
+@import "bicicleta/bicicleta-interna.css";
+@import "bicicleta/seguro-bike.css";
+
 
 
 @import "seguros/seguros.css";
@@ -25,3 +30,7 @@
 
 @import "termos/termos.css";
 
+@import "orcamento/orcamento.css";
+
+@import "contato/contato.css";
+@import "contato/lojas.css";
