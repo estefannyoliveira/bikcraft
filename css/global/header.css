@@ -32,7 +32,7 @@
     height: 2px;
     transition:  .3s;
 }
-.menu-item a:hover:after{
+.menu-item a:hover::after, .menu-item a.linkAtivo:after{
     width: 100%;
 }
 

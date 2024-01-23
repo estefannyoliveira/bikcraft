@@ -51,7 +51,7 @@
                     <li>Suporte 08h às 18h</li>
                     <li>Cobertura estadual</li>
                 </ul>
-                <a class="btn-1" href="orcamento.html">inscreva-se</a>
+                <a class="btn-1 secundario" href="orcamento.html?tipo=seguro&produto=prata">inscreva-se</a>
             </div>
             <div class="seguros-item">
                 <h3 class="font-1-xl cor-p1">Ouro</h3>
@@ -66,7 +66,7 @@
                     <li>Desconto em parceiros</li>
                     <li>Acesso ao Clube Bikcraft</li>
                 </ul>
-                <a class="btn-1 secundario" href="orcamento.html">inscreva-se</a>
+                <a class="btn-1" href="orcamento.html?tipo=seguro&produto=ouro">inscreva-se</a>
             </div>
         </div>
 
@@ -122,88 +122,53 @@
         </div>
     </article>
 
-    <!-- <article class="faq container">
-        <h2 class="cor-11 font-1-xxl ">Perguntas frequentes<strong>.</strong></h2>
-
-        <div class="perguntas">
-            <h3 class="font-1-m-b">
-                Qual forma de pagamento vocês aceitam?
-            </h3>
-            <p class="font-1-m cor-9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American
-                Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-        </div>
-        <div class="perguntas">
-            <h3>
-                Qual forma de pagamento vocês aceitam?
-            </h3>
-            <p>Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos
-                à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-        </div>
-        <div class="perguntas">
-            <h3>
-                Qual forma de pagamento vocês aceitam?
-            </h3>
-            <p>Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos
-                à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-        </div>
-        <div class="perguntas">
-            <h3>
-                Qual forma de pagamento vocês aceitam?
-            </h3>
-            <p>Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos
-                à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-        </div>
-        <div class="perguntas">
-            <h3>
-                Qual forma de pagamento vocês aceitam?
-            </h3>
-            <p>Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos
-                à vista também aceitarmos PIX e Boleto através do PagSeguro.</p>
-        </div>
-    </article> -->
-
     <article class="faq container">
         <h2 class="cor-11 font-1-xxl ">Perguntas frequentes<strong>.</strong></h2>
 
         <dl>
             <div>
-                <dt class="font-1-m-b"> Qual forma de pagamento vocês aceitam?</dt>
-                <dd class="font-1-m cor-9">
+                <dt><button class="font-1-m-b" aria-controls="pergunta1" aria-expanded="true"> Qual forma de
+                        pagamento vocês aceitam?</button></dt>
+                <dd class="font-1-m cor-9 ativo" id="pergunta1">
                     Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American
                     Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
 
             <div>
-                <dt class="font-1-m-b"> Qual forma de pagamento vocês aceitam?
+                <dt><button class="font-1-m-b" aria-controls="pergunta2" aria-expanded="false"> Qual forma de pagamento
+                        vocês aceitam?</button>
                 </dt>
-                <dd class="font-1-m cor-9">
+                <dd class="font-1-m cor-9" id="pergunta2">
                     Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American
                     Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.
                 </dd>
             </div>
 
             <div>
-                <dt class="font-1-m-b"> Qual forma de pagamento vocês aceitam?
+                <dt><button class="font-1-m-b" aria-controls="pergunta3" aria-expanded="false"> Qual forma de pagamento
+                        vocês aceitam?</button>
                 </dt>
-                <dd class="font-1-m cor-9">
+                <dd class="font-1-m cor-9" id="pergunta3">
                     Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American
                     Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.
                 </dd>
             </div>
 
             <div>
-                <dt class="font-1-m-b"> Qual forma de pagamento vocês aceitam?
+                <dt> <button class="font-1-m-b" aria-controls="pergunta4" aria-expanded="false"> Qual forma de pagamento
+                        vocês aceitam?</button>
                 </dt>
-                <dd class="font-1-m cor-9">
+                <dd class="font-1-m cor-9" id="pergunta4">
                     Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American
                     Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.
                 </dd>
             </div>
 
             <div>
-                <dt class="font-1-m-b"> Qual forma de pagamento vocês aceitam?
+                <dt><button class="font-1-m-b" aria-controls="pergunta5" aria-expanded="false"> Qual forma de pagamento
+                        vocês aceitam?</button>
                 </dt>
-                <dd class="font-1-m cor-9">
+                <dd class="font-1-m cor-9" id="pergunta5">
                     Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American
                     Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.
                 </dd>
@@ -254,4 +219,5 @@
             <p class="footer-direitos font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
