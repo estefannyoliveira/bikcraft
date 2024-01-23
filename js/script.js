@@ -47,3 +47,28 @@ function cliquePergunta(pergunta) {
 }
 
 perguntas.forEach(cliquePergunta);
+
+//galeria bicicletas
+const imgBicicleta = document.querySelectorAll('.bicicleta-imagens img');
+const galeria = document.querySelector('.bicicleta-imagens');
+
+function alterarImg(event) {
+    const img = event.currentTarget;
+
+    const media = matchMedia('(min-width:1000px').matches;
+
+    if (media) {
+        galeria.prepend(img);
+    };
+
+}
+
+function cliqueImg(img) {
+    img.addEventListener('click', alterarImg);
+}
+
+imgBicicleta.forEach(cliqueImg);
+
+if(window.SimpleAnime){
+    new SimpleAnime();
+}

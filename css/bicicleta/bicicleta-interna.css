@@ -10,14 +10,18 @@
 }
 
 .bicicleta-imagens {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    grid-auto-rows: max-content;
 }
-
-.imagem-destaque {
-    grid-column: 1 / -1;
+.bicicleta-imagens img{
+   flex: 1;
+   min-width: 200px;
+   cursor: pointer;
+}
+.bicicleta-imagens img:first-child {
+    cursor: initial;
+    min-width: 100%;
 }
 
 .bicicleta-conteudo>p {
